@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using TreehouseDefense;
 using Xunit;
 
-namespace TreehouseDefenseTests
+namespace TreehouseDefense.Tests
 {
     public class PathTests
     {
