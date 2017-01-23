@@ -15,7 +15,7 @@ namespace TreehouseDefense
 
         public MapLocation GetLocationAt(int pathStep)
         {
-            return (pathStep <= _pathLocations.Length) ? _pathLocations[pathStep] : null;
+            return (pathStep < _pathLocations.Length) ? _pathLocations[pathStep] : null;
         }
     }
 }
