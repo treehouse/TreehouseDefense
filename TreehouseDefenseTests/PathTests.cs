@@ -57,5 +57,12 @@ namespace TreehouseDefense.Tests
             var target = _path3;
             Assert.Null(target.GetLocationAt(_pathLocations3.Length + 1));
         }
+
+        [Fact]
+        public void GetLocationAtOneStepAfterEndOfPath()
+        {
+            var target = _path3;
+            Assert.Null(target.GetLocationAt(_pathLocations3.Length));
+        }
     }
 }
