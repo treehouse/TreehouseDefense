@@ -59,9 +59,11 @@
   <ItemGroup>
     <Compile Include="MapLocationTests.cs" />
     <Compile Include="MapTests.cs" />
+    <Compile Include="Mocks\InvaderMock.cs" />
     <Compile Include="PathTests.cs" />
     <Compile Include="PointTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TowerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -19,7 +19,6 @@
                 if (invader.IsActive && _location.InRangeOf(invader.Location, Range))
                 {
                     invader.DecreaseHealth(Power);
-                    break;
                 }
             }
         }
